@@ -2,25 +2,20 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.panel {
+  width: 33vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 33vh;
+  background: #b3b2b26b;
+  margin: 20px;
+  border-radius: 14px;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.textList {
+  list-style: none;
+  overflow: auto;
 }
 
 @keyframes App-logo-spin {
